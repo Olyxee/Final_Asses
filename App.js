@@ -3,7 +3,7 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { AuthProvider } from "./src/context/AuthContext";
-import AppNavigator from "./src/navigation/AppNavigator";
+import RootNavigator from "./src/navigation/RootNavigator";
 
 export default function App() {
   return (
@@ -11,7 +11,7 @@ export default function App() {
       <SafeAreaProvider>
         <NavigationContainer>
           <StatusBar style="auto" />
-          <AppNavigator />
+          <RootNavigator />
         </NavigationContainer>
       </SafeAreaProvider>
     </AuthProvider>
