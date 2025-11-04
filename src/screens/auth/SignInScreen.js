@@ -46,7 +46,7 @@ const SignInScreen = ({ navigation }) => {
       >
         <ScrollView contentContainerStyle={styles.scrollContent}>
           <Image
-            source={require("../../../assets/images/Files/Materials/02-Sign in Page/signin-header.png")}
+            source={require("../../../assets/adaptive-icon.png")}
             style={styles.headerImage}
           />
 

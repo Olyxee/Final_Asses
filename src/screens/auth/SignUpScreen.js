@@ -61,7 +61,7 @@ const SignUpScreen = ({ navigation }) => {
       >
         <ScrollView contentContainerStyle={styles.scrollContent}>
           <Image
-            source={require("../../../assets/images/Files/Materials/05-Sign up Page/signup-header.png")}
+            source={require("../../../assets/adaptive-icon.png")}
             style={styles.headerImage}
           />
 
